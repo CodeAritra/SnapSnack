@@ -8,7 +8,7 @@ const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const { body, validationResult } = require("express-validator");
 
-const jwtsecret = "AritraDhank21205";
+const jwtsecret = JWTTOKEN;
 
 //Router 1 : Creating user
 

@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const mongoURI = "mongodb://localhost:27017/foodapp";
+const mongoURI = URI;
 
 const connectToMongo = async () => {
   await mongoose.connect(mongoURI);
